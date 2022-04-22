@@ -9,8 +9,6 @@ import org.mybatis.spring.annotation.MapperScan;
 public class UserApplication {
     public static void main(String[] args) {
         System.out.println("sagfsdgfdhgdsfdfdg");
-        System.out.println("sagfsdgfdhgdsfdfdg");
-        System.out.println("sagfsdgfdhgdsfdfdg");
         SpringApplication.run(UserApplication.class, args);
     }
 }
