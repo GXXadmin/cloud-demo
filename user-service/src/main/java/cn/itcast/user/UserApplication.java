@@ -11,6 +11,7 @@ public class UserApplication {
         System.out.println("hello");
         System.out.println("hello1111");
         System.out.println("hello2222");
+        System.out.println("hello3333");
         SpringApplication.run(UserApplication.class, args);
     }
 }
