@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: userserver # 服务名称
+  profiles:
+    active: dev #开发环境，这里是dev
+  cloud:
+    nacos:
+      server-addr: nacos:8848 # Nacos地址
+      config:
+        file-extension: yaml # 文件后缀名
+        namespace: 5236f8ef-268e-4ceb-a8a2-3277f51b99ed
